@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "name": "Alice",
+      "phone": "15651970811",
+      "email": "464804196@qq.com",
+      "id": 3,
+      "age": 27,
+      "companyId": 3,
+      "balance": "10000"
+    },
+    {
+      "name": "Joe",
+      "email": "464804196@qq.com",
+      "phone": "15651970811",
+      "balance": 400,
+      "id": 4
+    },
+    {
+      "name": "ajnxka",
+      "email": "464804196@qq.com",
+      "phone": "15651970811",
+      "balance": "10000",
+      "id": 5
+    },
+    {
+      "name": "Mark",
+      "phone": "15651970811",
+      "email": "464804196@qq.com",
+      "age": 23,
+      "companyId": 3,
+      "id": 6,
+      "balance": 600
+    },
+    {
+      "name": "Coco",
+      "email": "1234@qq.com",
+      "phone": "1233422312121",
+      "id": 7,
+      "balance": "1000"
+    },
+    {
+      "name": "11",
+      "email": "1234@qq.com",
+      "phone": "1233422312121",
+      "balance": "0",
+      "id": 8
+    },
+    {
+      "name": "ajsnkja",
+      "email": "1234@qq.com",
+      "phone": "1233422312121",
+      "balance": "122222222",
+      "id": 9
+    }
+  ],
+  "companies": [
+    {
+      "id": 1,
+      "name": "么卡电子科技（上海）有限公司",
+      "description": "2016-2018"
+    },
+    {
+      "id": 2,
+      "name": "三邻桥",
+      "description": "2017-2019"
+    },
+    {
+      "id": 3,
+      "name": "Apple",
+      "description": "1991-2018"
+    }
+  ]
+}

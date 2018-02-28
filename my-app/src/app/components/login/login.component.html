@@ -1,0 +1,21 @@
+<div class="row">
+  <div class="col-md-12 col-lg-12">
+    <div class="card">
+      <div class="card-block">
+        <img class="mx-auto d-block" scr="/assets/img/dog.jpg" alt="DOG">
+        <h1 class="text-center">LOGIN</h1>
+        <form (submit)="onSubmit()">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" class="form-control" [(ngModel)]="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" class="form-control" [(ngModel)]="password" name="password" required>
+          </div>
+          <input type="submit" class="btn btn-block btn-primary" value="LOGIN">
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

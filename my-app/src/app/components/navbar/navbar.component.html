@@ -1,0 +1,22 @@
+
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">USER SYSTEM</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li class="active" *ngIf="isLoggedIn"><a href="#" routerLink="/" >Home</a></li>
+        <li><a href="#" routerLink="/user">Users</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li *ngIf="!isLoggedIn"><a href="#" routerLink="/login" >Login</a></li>
+        <li *ngIf="!isLoggedIn"><a href="#" routerLink="/register">Register</a></li>
+        <li *ngIf="isLoggedIn"><a href="#">{{loggedInUser}}</a></li>
+        <li *ngIf="isLoggedIn"><a href="#" (click)="onLogoutClick()">Logout</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
